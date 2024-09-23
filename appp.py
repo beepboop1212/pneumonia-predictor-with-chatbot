@@ -7,7 +7,7 @@ from transformers import ViTForImageClassification, ViTFeatureExtractor
 import numpy as np
 
 # Google Generative AI Configuration
-genai.configure(api_key="AIzaSyDC7Th_hRNzyEPVWglDy5sLA43qcmAalVA")  
+genai.configure(api_key="API_KEY")  
 
 # Chat Model Configuration
 generation_config = {
